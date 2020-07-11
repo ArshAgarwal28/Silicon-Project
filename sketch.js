@@ -62,33 +62,33 @@ var videoTrial, videoPhase = "notSeen";
 
 function preload() {
   //Loading all image/animation for level 2
-  playerAnim = loadAnimation("sprites/Level2Spr/RunnerAnim/RunMan1.png", "sprites/Level2Spr/RunnerAnim/RunMan2.png",
-  "sprites/Level2Spr/RunnerAnim/RunMan3.png","sprites/Level2Spr/RunnerAnim/RunMan4.png",
-  "sprites/Level2Spr/RunnerAnim/RunMan5.png", "sprites/Level2Spr/RunnerAnim/RunMan6.png",
-  "sprites/Level2Spr/RunnerAnim/RunMan7.png","sprites/Level2Spr/RunnerAnim/RunMan8.png");
-  virusCollAnim = loadAnimation("sprites/level2Spr/boomAnim/boom1.png", "sprites/level2Spr/boomAnim/boom2.png",
-  "sprites/level2Spr/boomAnim/boom3.png", "sprites/level2Spr/boomAnim/boom4.png",
-  "sprites/level2Spr/boomAnim/boom5.png", "sprites/level2Spr/boomAnim/boom6.png",
-  "sprites/level2Spr/boomAnim/boom7.png", "sprites/level2Spr/boomAnim/boom8.png");
-  speedUpAnim = loadAnimation("sprites/level2Spr/powerUpBlue/speedUp1.png","sprites/level2Spr/powerUpBlue/speedUp2.png",
-  "sprites/level2Spr/powerUpBlue/speedUp3.png","sprites/level2Spr/powerUpBlue/speedUp4.png",
-  "sprites/level2Spr/powerUpBlue/speedUp5.png","sprites/level2Spr/powerUpBlue/speedUp6.png")
+  playerAnim = loadAnimation("Silicon-Project/sprites/Level2Spr/RunnerAnim/RunMan1.png", "Silicon-Project/sprites/Level2Spr/RunnerAnim/RunMan2.png",
+  "Silicon-Project/sprites/Level2Spr/RunnerAnim/RunMan3.png","Silicon-Project/sprites/Level2Spr/RunnerAnim/RunMan4.png",
+  "Silicon-Project/sprites/Level2Spr/RunnerAnim/RunMan5.png", "Silicon-Project/sprites/Level2Spr/RunnerAnim/RunMan6.png",
+  "Silicon-Project/sprites/Level2Spr/RunnerAnim/RunMan7.png","Silicon-Project/sprites/Level2Spr/RunnerAnim/RunMan8.png");
+  virusCollAnim = loadAnimation("Silicon-Project/sprites/level2Spr/boomAnim/boom1.png", "Silicon-Project/sprites/level2Spr/boomAnim/boom2.png",
+  "Silicon-Project/sprites/level2Spr/boomAnim/boom3.png", "Silicon-Project/sprites/level2Spr/boomAnim/boom4.png",
+  "Silicon-Project/sprites/level2Spr/boomAnim/boom5.png", "Silicon-Project/sprites/level2Spr/boomAnim/boom6.png",
+  "Silicon-Project/sprites/level2Spr/boomAnim/boom7.png", "Silicon-Project/sprites/level2Spr/boomAnim/boom8.png");
+  speedUpAnim = loadAnimation("Silicon-Project/sprites/level2Spr/powerUpBlue/speedUp1.png","Silicon-Project/sprites/level2Spr/powerUpBlue/speedUp2.png",
+  "Silicon-Project/sprites/level2Spr/powerUpBlue/speedUp3.png","Silicon-Project/sprites/level2Spr/powerUpBlue/speedUp4.png",
+  "Silicon-Project/sprites/level2Spr/powerUpBlue/speedUp5.png","Silicon-Project/sprites/level2Spr/powerUpBlue/speedUp6.png")
 
-  trackAnim = loadImage("sprites/Level2Spr/track.png");
-  vaccineAnim = loadImage("sprites/Level2Spr/VaccineIMG.png");
-  virusAnim = loadImage("sprites/Level2Spr/virusAI.png");
-  demoAnim = loadImage("sprites/Level2Spr/miniButton.png");
-  orignalAnim = loadImage("sprites/Level2Spr/orignalButton.png");
-  obsAnim = loadImage("sprites/Level2Spr/rock.png")
-  boostAnim = loadImage("sprites/Level2Spr/boostAnim.png")
+  trackAnim = loadImage("Silicon-Project/sprites/Level2Spr/track.png");
+  vaccineAnim = loadImage("Silicon-Project/sprites/Level2Spr/VaccineIMG.png");
+  virusAnim = loadImage("Silicon-Project/sprites/Level2Spr/virusAI.png");
+  demoAnim = loadImage("Silicon-Project/sprites/Level2Spr/miniButton.png");
+  orignalAnim = loadImage("Silicon-Project/sprites/Level2Spr/orignalButton.png");
+  obsAnim = loadImage("Silicon-Project/sprites/Level2Spr/rock.png")
+  boostAnim = loadImage("Silicon-Project/sprites/Level2Spr/boostAnim.png")
 
-  timefontLoad = loadFont("sprites/Level2Spr/agencyFB.ttf");
-  endFontLoad = loadFont("sprites/Level2Spr/simplifica.ttf");
+  timefontLoad = loadFont("Silicon-Project/sprites/Level2Spr/agencyFB.ttf");
+  endFontLoad = loadFont("Silicon-Project/sprites/Level2Spr/simplifica.ttf");
 
-  collectAudio = loadSound("sprites/Level2Spr/collectAudio.mp3");
-  collideSound = loadSound("sprites/Level2Spr/coughSound.mp3");
-  backSound = loadSound("sprites/Level2Spr/backSound.mp3");
-  boostSound = loadSound("sprites/Level2Spr/boostSound.mp3");
+  collectAudio = loadSound("Silicon-Project/sprites/Level2Spr/collectAudio.mp3");
+  collideSound = loadSound("Silicon-Project/sprites/Level2Spr/coughSound.mp3");
+  backSound = loadSound("Silicon-Project/sprites/Level2Spr/backSound.mp3");
+  boostSound = loadSound("Silicon-Project/sprites/Level2Spr/boostSound.mp3");
 }
 
 function setup(){
